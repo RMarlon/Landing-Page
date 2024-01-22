@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Martian Mono', monospace;
+    display: flex;
+    justify-content: center;
+    background: url(/images/maxresdefault.jpg) no-repeat;
+    background-size: cover;
+}
+
+section{
+    margin-top: 150px;
+    width: 999px;
+    border: 1px solid rebeccapurple;
+    background-color: aliceblue;
+}
+.container .product_image{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
